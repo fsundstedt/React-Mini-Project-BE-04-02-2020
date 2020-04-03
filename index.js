@@ -21,5 +21,5 @@ app.get("/posts", async function(req, res, next) {
   });
 
 app.listen(PORT, () => {
-  console.log(`Server is listening on port: ${2000}`);
+  console.log(`Server is listening on port: ${PORT}`);
 });
